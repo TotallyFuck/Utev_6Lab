@@ -1,0 +1,23 @@
+name: product
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0-27.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.1
+  flutter_svg: ^1.0.0
+  cached_network_image: ^3.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
